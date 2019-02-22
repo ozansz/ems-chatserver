@@ -1,0 +1,29 @@
+{
+  "name": "chatserver",
+  "version": "1.0.0",
+  "description": "EMS v2+ chat server",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ozansz/ems-chatserver.git"
+  },
+  "author": "Ozan Sazak <sazak@ieee.org>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ozansz/ems-chatserver/issues"
+  },
+  "homepage": "https://github.com/ozansz/ems-chatserver#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "express": "^4.15.2",
+    "mongodb": "^3.1.13",
+    "mongoose": "^5.4.14",
+    "socket.io": "^2.2.0"
+  }
+}
